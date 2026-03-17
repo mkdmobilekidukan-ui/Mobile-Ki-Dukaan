@@ -1,13 +1,24 @@
 # Mobile Ki Dukaan
 
-Mobile Ki Dukaan helps users find the best mobile shops, latest offers, and nearby deals.
+Mobile Ki Dukaan helps users find the **best mobile shops near me**, latest smartphone offers, and nearby deals across India.
 
-## 🔥 Find Best Mobile Shops Near You
+## 🔥 Best Mobile Shop in Jaipur & India
+
+Mobile Ki Dukaan is a platform to compare mobile prices, explore local mobile stores, and discover the best deals in cities like Jaipur, Jodhpur and more.
+
 👉 https://mobilekidukaan.in
 
-## 📍 Why Mobile Ki Dukaan?
-- Compare prices from local stores
-- Discover best deals in your city
-- Support local MSME retailers
+## 📊 What You Can Find
+
+- Mobile phone price comparison  
+- Nearby mobile shop availability  
+- Exchange offers & discounts  
+- EMI and finance options  
+
+## 🎯 Why Mobile Ki Dukaan?
+
+- Compare prices from local stores  
+- Discover best deals in your city  
+- Support local MSME retailers  
 
 🌐 Visit Now: https://mobilekidukaan.in
