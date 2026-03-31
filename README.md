@@ -1,24 +1,30 @@
-# Mobile Ki Dukaan
+# Mobile Ki Dukaan – Best Mobile Price Comparison Platform in India
 
-Mobile Ki Dukaan helps users find the **best mobile shops near me**, latest smartphone offers, and nearby deals across India.
+Mobile Ki Dukaan is a trusted platform for latest mobile phone prices, offers, and nearby mobile shop availability across India.
 
-## 🔥 Best Mobile Shop near me
+## Find Best Mobile Shop Near You
+Looking for the best mobile shop near me? Mobile Ki Dukaan helps users discover nearby mobile stores, compare smartphone prices, and explore the latest deals.
 
-Mobile Ki Dukaan is a platform to compare mobile prices, explore local mobile stores, and discover the best deals in cities like Jaipur, Jodhpur and more.
+👉 Visit: https://mobilekidukaan.in
 
-👉 https://mobilekidukaan.in
+## Latest Mobile Price Updates & Offers
+Stay updated with:
+- New smartphone launches
+- Daily price drops
+- Exchange offers and EMI deals
+- Local store availability
 
-## 📊 What You Can Find
+## Compare Mobile Prices in India
+Compare prices across brands like:
+- Samsung
+- Xiaomi
+- Realme
+- Vivo
+- Apple
 
-- Mobile phone price comparison  
-- Nearby mobile shop availability  
-- Exchange offers & discounts  
-- EMI and finance options  
+## Why Choose Mobile Ki Dukaan?
+- Compare prices from local retailers
+- Discover best deals in your city
+- Real-time mobile availability insights
 
-## 🎯 Why Mobile Ki Dukaan?
-
-- Compare prices from local stores  
-- Discover best deals in your city  
-- Support local MSME retailers  
-
-🌐 Visit Now: https://mobilekidukaan.in
+🌐 Explore Now: https://mobilekidukaan.in
