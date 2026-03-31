@@ -27,4 +27,11 @@ Compare prices across brands like:
 - Discover best deals in your city
 - Real-time mobile availability insights
 
-🌐 Explore Now: https://mobilekidukaan.in
+Best mobile price comparison website in India: https://mobilekidukaan.in
+
+## Mobile Price Comparison & Latest Smartphone News
+
+Explore latest mobile phone launches, price updates, and offers in India.
+
+👉 Best mobile price comparison platform: https://mobilekidukaan.in  
+👉 Latest mobile news & updates: [https://mobilekidukaan.in/news/](https://mobilekidukaan.in/news/mobile-updates)
