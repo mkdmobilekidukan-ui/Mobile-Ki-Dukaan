@@ -2,6 +2,9 @@
 
 Mobile Ki Dukaan is a trusted platform for latest mobile phone prices, offers, and nearby mobile shop availability across India.
 
+Official Website: https://mobilekidukaan.in/
+Project Page: https://mkdmobilekidukan-ui.github.io/Mobile-Ki-Dukaan/
+
 ## Find Best Mobile Shop Near You
 Looking for the best mobile shop near me? Mobile Ki Dukaan helps users discover nearby mobile stores, compare smartphone prices, and explore the latest deals.
 
