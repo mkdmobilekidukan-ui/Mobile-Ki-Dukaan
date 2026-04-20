@@ -3,62 +3,376 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mobile Ki Dukaan | Best Mobile Shops, Prices and Nearby Deals in India</title>
-  <meta name="description" content="Mobile Ki Dukaan helps users find nearby mobile shops, compare smartphone prices, explore latest deals and discover trusted retailers across India.">
+
+  <title>Mobile Ki Dukaan Project | Best Mobile Shops, Prices and Deals in India</title>
+  <meta name="description" content="Mobile Ki Dukaan helps users compare smartphone prices, discover nearby mobile shops, explore latest launches, and find trusted local deals across India.">
   <meta name="robots" content="index,follow">
+
+  <link rel="canonical" href="https://mkdmobilekidukan-ui.github.io/Mobile-Ki-Dukaan/">
+  <link rel="icon" href="https://mobilekidukaan-assets.s3.ap-south-1.amazonaws.com/assets/web/images/logo2.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mobile Ki Dukaan Project | Compare Mobile Prices and Find Nearby Shops">
+  <meta property="og:description" content="Explore smartphone prices, discover local mobile stores, and stay updated with the latest mobile launches and offers.">
+  <meta property="og:url" content="https://mkdmobilekidukan-ui.github.io/Mobile-Ki-Dukaan/">
+  <meta property="og:image" content="https://mobilekidukaan-assets.s3.ap-south-1.amazonaws.com/assets/web/images/logo-desktop-150.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mobile Ki Dukaan Project">
+  <meta name="twitter:description" content="Compare smartphone prices, explore latest mobile launches, and discover nearby mobile shops.">
+  <meta name="twitter:image" content="https://mobilekidukaan-assets.s3.ap-south-1.amazonaws.com/assets/web/images/logo-desktop-150.png">
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.7;
-      color: #222;
+    :root{
+      --red:#f20000;
+      --orange:#ff6600;
+      --teal:#1ecbe1;
+      --dark:#292e2e;
+      --muted:#667070;
+      --border:#e7ebeb;
+      --soft:#f7f8fa;
+      --radius:18px;
+      --shadow:0 10px 30px rgba(24,31,31,.08);
     }
-    h1, h2 {
-      margin-bottom: 12px;
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial, sans-serif;
+      color:var(--dark);
+      background:#fff;
+      line-height:1.65;
     }
-    p {
-      margin-bottom: 16px;
+
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:0 20px;
     }
-    a {
-      color: #0a58ca;
-      text-decoration: none;
+
+    .topbar{
+      background:var(--dark);
+      color:#fff;
+      font-size:13px;
     }
-    a:hover {
-      text-decoration: underline;
+
+    .topbar .wrap{
+      padding:10px 20px;
+      display:flex;
+      justify-content:center;
+      text-align:center;
     }
-    .box {
-      background: #f7f7f7;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 20px;
+
+    .hero{
+      padding:56px 0 34px;
+      background:linear-gradient(135deg,#fff 0%,#f8f9fb 55%,#fff3f3 100%);
+      border-bottom:1px solid var(--border);
+    }
+
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:28px;
+      align-items:center;
+    }
+
+    .logo{
+      width:170px;
+      height:auto;
+      margin-bottom:18px;
+    }
+
+    .eyebrow{
+      display:inline-block;
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:var(--red);
+      margin-bottom:10px;
+    }
+
+    h1{
+      font-size:48px;
+      line-height:1.1;
+      margin:0 0 16px;
+    }
+
+    h1 span{color:var(--red)}
+
+    .hero p{
+      font-size:18px;
+      color:var(--muted);
+      margin:0 0 22px;
+      max-width:700px;
+    }
+
+    .btns{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin:22px 0 22px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:13px 20px;
+      border-radius:12px;
+      font-weight:700;
+      text-decoration:none;
+      transition:.2s ease;
+    }
+
+    .btn-primary{
+      background:var(--red);
+      color:#fff;
+    }
+
+    .btn-primary:hover{
+      background:#c90000;
+    }
+
+    .btn-outline{
+      border:1.5px solid var(--border);
+      color:var(--dark);
+      background:#fff;
+    }
+
+    .btn-outline:hover{
+      border-color:var(--teal);
+      color:var(--teal);
+    }
+
+    .hero-card{
+      background:#fff;
+      border:1.5px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:24px;
+    }
+
+    .hero-card h2{
+      margin:0 0 14px;
+      font-size:24px;
+    }
+
+    .hero-card ul{
+      margin:0;
+      padding-left:18px;
+      color:var(--muted);
+    }
+
+    .hero-card li{
+      margin-bottom:10px;
+    }
+
+    .section{
+      padding:44px 0;
+    }
+
+    .section h2{
+      font-size:32px;
+      margin:0 0 12px;
+    }
+
+    .section-intro{
+      color:var(--muted);
+      max-width:760px;
+      margin-bottom:24px;
+      font-size:17px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:16px;
+    }
+
+    .card{
+      background:#fff;
+      border:1.5px solid var(--border);
+      border-radius:var(--radius);
+      padding:22px;
+      box-shadow:0 2px 10px rgba(24,31,31,.03);
+    }
+
+    .card h3{
+      margin:0 0 8px;
+      font-size:18px;
+    }
+
+    .card p{
+      margin:0;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .links-box{
+      background:var(--soft);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:26px;
+    }
+
+    .link-list{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:14px;
+      margin-top:16px;
+    }
+
+    .link-item{
+      display:block;
+      padding:14px 16px;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:12px;
+      color:var(--dark);
+      text-decoration:none;
+      font-weight:700;
+    }
+
+    .link-item:hover{
+      border-color:var(--teal);
+      color:var(--teal);
+    }
+
+    .footer{
+      padding:28px 0 40px;
+      border-top:1px solid var(--border);
+      background:#fafafa;
+    }
+
+    .footer p{
+      margin:0;
+      color:var(--muted);
+      text-align:center;
+      font-size:14px;
+    }
+
+    @media (max-width: 900px){
+      .hero-grid,
+      .grid,
+      .link-list{
+        grid-template-columns:1fr;
+      }
+
+      h1{
+        font-size:36px;
+      }
+
+      .hero p,
+      .section-intro{
+        font-size:16px;
+      }
+
+      .logo{
+        width:140px;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Mobile Ki Dukaan</h1>
 
-  <p>
-    Mobile Ki Dukaan is a platform that helps users find nearby mobile shops,
-    compare smartphone prices, explore latest offers and discover trusted
-    retailers across India.
-  </p>
-
-  <h2>Find Best Mobile Shop Near You</h2>
-
-  <p>
-    Explore mobile phone deals, compare prices and connect with nearby stores
-    through Mobile Ki Dukaan.
-  </p>
-
-  <div class="box">
-    <p><strong>Official Website:</strong></p>
-    <p>
-      <a href="https://mobilekidukaan.in/" target="_blank" rel="noopener noreferrer">
-        Visit MobileKiDukaan.in
-      </a>
-    </p>
+  <div class="topbar">
+    <div class="wrap">
+      Mobile Ki Dukaan Project Page
+    </div>
   </div>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <img
+            src="https://mobilekidukaan-assets.s3.ap-south-1.amazonaws.com/assets/web/images/logo-desktop-150.png"
+            alt="Mobile Ki Dukaan logo"
+            class="logo"
+          >
+
+          <span class="eyebrow">India's Mobile Marketplace</span>
+
+          <h1>Compare Mobile Prices.<br><span>Discover Nearby Shops.</span></h1>
+
+          <p>
+            Mobile Ki Dukaan helps users explore smartphone prices, compare deals,
+            discover nearby mobile shops, and stay updated with the latest launches,
+            offers, and market updates across India.
+          </p>
+
+          <div class="btns">
+            <a class="btn btn-primary" href="https://mobilekidukaan.in/" target="_blank" rel="noopener noreferrer">Visit Official Website</a>
+            <a class="btn btn-outline" href="https://github.com/mkdmobilekidukan-ui/Mobile-Ki-Dukaan" target="_blank" rel="noopener noreferrer">View GitHub Repository</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2>What this project covers</h2>
+          <ul>
+            <li>Compare smartphone prices across brands and models</li>
+            <li>Find nearby mobile shops and local retail options</li>
+            <li>Explore new launches, buying guides, and mobile news</li>
+            <li>Connect users with trusted deals and product discovery pages</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Why Mobile Ki Dukaan</h2>
+      <p class="section-intro">
+        This GitHub Pages version is a lightweight public project page for Mobile Ki Dukaan.
+        It supports branding, public discovery, and a clean reference point back to the main website.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Price Comparison</h3>
+          <p>Help users compare mobile phone prices before buying.</p>
+        </div>
+        <div class="card">
+          <h3>Nearby Stores</h3>
+          <p>Make it easier to discover mobile shops near the user.</p>
+        </div>
+        <div class="card">
+          <h3>Latest Launches</h3>
+          <p>Highlight new mobile phones, deals, and market updates.</p>
+        </div>
+        <div class="card">
+          <h3>Trusted Discovery</h3>
+          <p>Connect buyers with useful pages, guides, and brand categories.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="links-box">
+        <h2>Explore Mobile Ki Dukaan</h2>
+        <p class="section-intro" style="margin-bottom:0;">
+          Use these direct links to explore the main sections of the platform.
+        </p>
+
+        <div class="link-list">
+          <a class="link-item" href="https://mobilekidukaan.in/" target="_blank" rel="noopener noreferrer">Homepage</a>
+          <a class="link-item" href="https://mobilekidukaan.in/buy-mobile-phones" target="_blank" rel="noopener noreferrer">Buy Mobile Phones</a>
+          <a class="link-item" href="https://mobilekidukaan.in/best-mobile-shop-near-me" target="_blank" rel="noopener noreferrer">Best Mobile Shop Near Me</a>
+          <a class="link-item" href="https://mobilekidukaan.in/news" target="_blank" rel="noopener noreferrer">Mobile News</a>
+          <a class="link-item" href="https://mobilekidukaan.in/blog/mobile-updates" target="_blank" rel="noopener noreferrer">Blog</a>
+          <a class="link-item" href="https://mobilekidukaan.in/contact-number" target="_blank" rel="noopener noreferrer">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>Mobile Ki Dukaan — compare mobile prices, discover nearby stores, and explore trusted deals.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
